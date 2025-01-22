@@ -1,0 +1,100 @@
+.hero {
+	background-color: var(--col-light-grey);
+	padding-top: 46px;
+}
+
+.hero__main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 76px;
+}
+
+.main-nav__logo {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	text-decoration: none;
+	padding: 0 12px 3px 0;
+	position: relative;
+}
+
+.main-nav__logo::after {
+	content: "";
+	display: block;
+	width: 8px;
+	height: 8px;
+	background-color: var(--col-orange);
+	border-radius: 50%;
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.main-nav__list {
+	display: flex;
+	column-gap: 50px;
+}
+
+.main-nav__list-item {
+	list-style: none;
+}
+
+.main-nav__list-item-link  {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	transition: all 0.3s;
+}
+
+.main-nav__list-item-link:hover {
+	color: var(--col-orange);
+	font-size: 16px;
+} 
+
+.main-nav__list-item-link.active {
+	color: #606060
+}
+
+.main-nav__btn {
+	display: none;
+	border: none;
+	padding: 0;
+	background-color: transparent;
+}
+
+/* 1. Column-gap чтобы при адаптации не совприкасался текстс картинкой*/
+/* 2. задаем максимальную ширину подстраиваясь под ширину subtitle*/
+.hero__main-content {
+	display: flex;	
+	justify-content: space-between;
+	column-gap: 30px;
+}
+
+.main-content__text {
+	max-width: 500px;
+	margin-top: 124px;
+}
+
+.main-content__text-title {
+	font-size: 44px;
+	line-height: 66px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.main-content__text-title > span:first-child {
+	color: var(--col-orange);
+}
+
+.main-content__text-subtitle {
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.main-content__img > img {
+	max-width: 494px;
+	max-height: 613px;
+}
