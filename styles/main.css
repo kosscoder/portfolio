@@ -4,7 +4,7 @@
 
 @import url(./sections/_common.css);
 
-@import url(sections/_hero.css);
-@import url(sections/_services.css);
-@import url(sections/_works.css);
+@import url(/sections/_hero.css);
+@import url(./sections/_services.css);
+@import url(../sections/_works.css);
 @import url(sections/_contacts.css);
