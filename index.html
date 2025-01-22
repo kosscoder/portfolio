@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="stylesheet" href="./styles/media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+		integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<header class="hero">
+		<div class="hero__wrap container">
+			<!-- Header nav -->
+			<nav class="hero__main-nav">
+				<a href="#!" class="main-nav__logo">Koss Coder</a>
+				<menu class="main-nav__list">
+					<li class="main-nav__list-item">
+						<a href="#!" class="main-nav__list-item-link --active">Home</a>
+					</li>
+					<li class="main-nav__list-item">
+						<a href="#!" class="main-nav__list-item-link">Works</a>
+					</li>
+					<li class="main-nav__list-item">
+						<a href="#!" class="main-nav__list-item-link">Services</a>
+					</li>
+					<li class="main-nav__list-item">
+						<a href="#!" class="main-nav__list-item-link">About</a>
+					</li>
+					<li class="main-nav__list-item">
+						<a href="#!" class="main-nav__list-item-link">Contact</a>
+					</li>
+				</menu>
+				<button class="main-nav__btn">
+					<img class="main-nav__btn-img" src="./img/icons/nav_open.svg" alt="nav button">
+				</button>
+			</nav>
+
+			<!-- Header content -->
+			<div class="hero__main-content">
+				<div class="main-content__text" data-aos="fade-up">
+					<h1 class="main-content__text-title">Viktor <span>Kostenko</span><br>
+						<span>Designer & Developer</span>
+					</h1>
+					<p class="main-content__text-subtitle">I'm a portrait, fashion and lifestyle photographer living Kyiv.
+						During my thirteen year tenure here.</p>
+				</div>
+				<picture class="main-content__img" data-aos="fade-left">
+					<source media="(max-width: 799px)" srcset="./img/hero/coder-mobile.png">
+					<img src="./img/hero/coder.png" alt="hero">
+				</picture>
+			</div>
+		</div>
+	</header>
+
+	<section class="services">
+		<div class="services__wrap container">
+			<div class="servises__cards">
+				<div class="cards__item" data-aos="fade-down">
+					<img class="cards__item-img" src="./img/services/services_logo-1.png" alt="ua/ux desigb">
+					<h3 class="cards__item-title">UI/UX Design</h3>
+					<p class="cards__item-desc">Our design is translated into comprehensive digital environments built on
+						latest development standards.</p>
+				</div>
+				<div class="cards__item" data-aos="fade-down">
+					<img class="cards__item-img" src="./img/services/services_logo-2.png" alt="development">
+					<h3 class="cards__item-title">development</h3>
+					<p class="cards__item-desc">Our design is translated into comprehensive digital environments built on
+						latest development standards.</p>
+				</div>
+				<div class="cards__item" data-aos="fade-down">
+					<img class="cards__item-img" src="./img/services/services_logo-3.png" alt="software testing">
+					<h3 class="cards__item-title">software testing</h3>
+					<p class="cards__item-desc">Our design is translated into comprehensive digital environments built on
+						latest development standards.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="works">
+		<div class="works__wrapper">
+			<div class="works__title">
+				<!-- works__title обертка, конкретно для позиционирования элемента -->
+				<h2 class="works__title-text">
+					Portfolio
+				</h2>
+			</div>
+			<div class="works__project" data-aos="flip-up">
+				<img class="project__img" src="./img/works/works_img-1.jpg" alt="Online fashion store">
+				<h3 class="project__title">
+					<a class="project__title-link" href="#!">Online fashion store - Homepage</a>
+				</h3>
+			</div>
+			<div class="works__project" data-aos="flip-up">
+				<img class="project__img" src="./img/works/works_img-2.jpg" alt="Reebok Store">
+				<h3 class="project__title">
+					<a class="project__title-link" href="#!">Reebok Store - Concept</a>
+				</h3>
+			</div>
+			<div class="works__project" data-aos="flip-up">
+				<img class="project__img" src="./img/works/works_img-3.jpg" alt="Online fashion store">
+				<h3 class="project__title">
+					<a class="project__title-link" href="#!">Braun Landing Page - Concept</a>
+				</h3>
+			</div>
+		</div>
+	</section>
+
+	<footer class="contacts">
+		<div class="contacts__wrapper">
+			<div class="contacts__title">
+				<h2 class="contacts__title-text">Contacts</h2>
+			</div>
+			<div class="contacts__content" data-aos="fade-down">
+				<p class="content__text">
+					Want to know more or just chat?<br>
+					You are welcome!
+				</p>
+			</div>
+			<div class="contacts__btn" data-aos="fade-down">
+				<a class="contacts__btn-link" href="#!">Send message</a>
+			</div>
+			<div class="contacts__social" data-aos="zoom-in">
+				<a href="#!" class="contacts__social-link">
+					<img class="contacts__social-link-img" src="./img/socials/linkedIn.svg" alt="linkedIn">
+				</a>
+				<a href="#!" class="contacts__social-link">
+					<img class="contacts__social-link-img" src="./img/socials/instargam.svg" alt="instargam">
+				</a>
+				<a href="#!" class="contacts__social-link">
+					<img class="contacts__social-link-img" src="./img/socials/behance.svg" alt="behance">
+				</a>
+				<a href="#!" class="contacts__social-link">
+					<img class="contacts__social-link-img" src="./img/socials/dribble.svg" alt="dribble">
+				</a>
+			</div>
+			<div class="contacts__bottom" data-aos="fade-up">
+				<p class="contacts__bottom-text">
+					Like me on<br>
+					LinkedIn, Instagram, Behance, Dribble
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+		integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
