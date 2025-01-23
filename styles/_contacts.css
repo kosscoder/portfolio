@@ -1,0 +1,74 @@
+.contacts__wrapper {
+	padding: 90px 0;
+	text-align: center;
+}
+
+.contacts__title {
+	margin-bottom: 40px;
+}
+
+.contacts__title-text {
+	font-size: 34px;
+	line-height: 51px;
+	font-weight: 600;
+}
+
+.contacts__content {
+	max-width: 480px;
+	margin: 0 auto 40px;
+}	
+
+.contacts__content-text {
+	font-size: 18px;
+	line-height: 27px;
+	color: #070707;
+}
+
+.contacts__btn {
+	display: inline-block;
+	padding: 7px 22px;
+	background-color: #070707;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+	margin-bottom: 80px;
+}
+
+.contacts__btn:hover {
+	background-color: var(--col-orange);
+}
+
+.contacts__btn:hover .contacts__btn-link {
+	color: #070707;
+}
+
+/* position: relative смещает элемент относительно себя самого, не затрагивая другие элементы */
+.contacts__btn:active {
+	position: relative;
+	top: 1px
+}
+
+.contacts__btn-link {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 27px;
+	text-decoration: none;
+}
+
+.contacts__social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 60px;
+	margin-bottom: 40px;
+}
+
+.contacts__social-link {
+	text-decoration: none;
+}
+
+.contacts__bottom-text {
+	font-size: 14px;
+	line-height: 21px;
+	color: #828282;
+}

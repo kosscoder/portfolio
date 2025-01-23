@@ -1,0 +1,36 @@
+.services {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.servises__cards {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 60px;
+}
+
+/* flex: 1 (flex-grow), 1 (flex-shrink), 0 (flex-basis карточки занимают размер сколько им нужно)*/
+.cards__item {
+	flex: 1 1 0;
+	min-width: 315px;
+}
+
+.cards__item-img {
+	margin-bottom: 30px;
+	max-width: 68px;
+	max-height: 68px;
+}
+
+.cards__item-title {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.cards__item-desc {
+	font-size: 14px;
+	line-height: 2;
+}

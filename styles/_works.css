@@ -1,0 +1,38 @@
+.works {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: var(--col-light-grey);
+}
+
+.works__wrapper {
+	text-align: center;
+}
+
+/* works__title обертка, конкретно для позиционирования элемента*/
+.works__title {
+	margin-bottom: 70px;
+}
+
+.works__title-text {
+	font-size: 34px;
+	line-height: 51px;
+	font-weight: 600;
+} 
+
+.works__project {
+	text-align: center;
+}
+
+.works__project + .works__project {
+	margin-top: 90px;
+}
+
+.project__img {
+	margin-bottom: 40px;
+}
+
+.project__title-link {
+	font-size: 18px;
+	line-height: 27px;
+	color: #070707;
+}
